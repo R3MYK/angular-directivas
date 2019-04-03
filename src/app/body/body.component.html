@@ -1,0 +1,16 @@
+<h1>Noticias de curso angular</h1>
+<div class="row">
+  <div class="col-10">
+
+  </div> 
+  <div class="col-2">
+    <div class="form-group">
+      <label for="categoria">Categoria</label>
+      <select name="" id="" class="form-control" id="selectornoticias" (change)="eventocontrol($event)">
+        <option *ngFor="let cat of categorias" value="{{ cat.codigo}}">{{cat.texto}}</option>
+        <!-- <option value="1">Opción 2</option>
+        <option value="1">Opción 3</option> -->
+      </select>
+    </div>
+  </div>
+</div>
