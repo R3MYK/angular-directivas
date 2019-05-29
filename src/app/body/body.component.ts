@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent implements OnInit {
+
+  //Array de cvategorias
   categorias: any = [
     { "codigo": 0, "texto": "Todos" },
     { "codigo": 1, "texto": "Politica" },
@@ -13,8 +15,8 @@ export class BodyComponent implements OnInit {
     { "codigo": 3, "texto": "Seguridad" },
   ];
 
-  temporal: any;
-
+  temporal: any;//
+//Array de Noticias
   noticias: any = [{
     "categoria": {
       "codigo": 1,
